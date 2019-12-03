@@ -11,7 +11,7 @@ import (
 )
 
 type Token struct {
-	UserId int
+	UserId uint
 	jwt.StandardClaims
 }
 
